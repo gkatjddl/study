@@ -1,0 +1,27 @@
+div{
+  border: 1px solid yellow;
+  width:400px ;
+
+}
+.nav li{
+  display: inline-block;
+  width: 60px;
+  background-color: violet;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+}
+a:hover
+{
+  color: green;
+}

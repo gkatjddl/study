@@ -1,0 +1,55 @@
+
+.starbox li
+{
+  display: inline-block;
+  width: 200px;
+}
+
+a,
+a:link,
+a :visited,
+
+a:active,
+a:focus
+{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+a:hover
+{
+  text-decoration: greenyellow;
+  color: rgb(91, 122, 43);
+}
+.back-image{
+  background-image: url(../image/red-panda-8372704_1280.jpg);
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.image-tatle{
+  color: aliceblue;
+  font-size: 24px;
+  position: absolute;
+  left: 16%;
+  top: 10%;
+}
+.image-contnet{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 16%;
+  top: 25%;
+}
+.image-button{
+  color: rgb(20, 66, 20);
+  background-color: white;
+  position: absolute;
+  left: 16%;
+  border-radius :15px;
+  top: 50%;
+}
+.image-button:hover {
+  color: white;
+  background-color: rgb(20, 66, 20);
+}
